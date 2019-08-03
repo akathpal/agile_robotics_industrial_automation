@@ -5,8 +5,10 @@ Follow the instructions provided in the link below to setup the competition envi
 
 [ARIAC Competition Setup](https://bitbucket.org/osrf/ariac/wiki/2017/Home.md)
 
-## Report 
+## Report and Final Presentation
 [ARIAC Project Final Report](https://github.com/akathpal/agile_robotics_industrial_automation/blob/master/akathpal_Report.pdf)
+
+[ARIAC Presentation](https://drive.google.com/open?id=1eQXGPeIq6jiFWJOF3OnCdtYm5X08KuoP)
 
 ## Instructions to run the code:
 
