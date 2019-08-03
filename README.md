@@ -1,4 +1,10 @@
-# Instructions to run the code:
+# Agile Robotics for Industrial Automation Competition (ARIAC)
+This project is part of ENPM809B course offered by University of Maryland, College Park during Spring 2018.
+
+Follow the instructions provided in the link below to setup the competition environment.
+[ARIAC Competition Setup](https://bitbucket.org/osrf/ariac/wiki/2017/Home.md)
+
+## Instructions to run the code:
 
 * Clone the repository into `src` of your workspace 
 * Go to the root of the workspace and execute `catkin_make`
@@ -6,8 +12,15 @@
 ```
 rosrun osrf_gear gear.py -f `catkin_find --share osrf_gear`/config/comp_conf1.yaml ~/ariac_ws/src/agile_robotics_industrial_automation/config/team_config.yaml
 ```
+## Youtube Videos for Qualifiers
+[Qual1a](https://www.youtube.com/watch?v=tEAGDLHdlyY&t=16s)
+[Qual1b](https://www.youtube.com/watch?v=2djQ1RuXj2s)
+[Qual2a](https://www.youtube.com/watch?v=pPSBvc6hQX4)
+[Qual2b](https://www.youtube.com/watch?v=04zn6psg7uY)
+[Qual3a](https://www.youtube.com/watch?v=5HyFe3qSEkk)
+[Qual3b](https://www.youtube.com/watch?v=iujyKDMRZsw)
 
-# General tips 
+## General tips 
 
 * Create your own branch and work independently on it.
 * Once you think your work is done, inform the team. 
