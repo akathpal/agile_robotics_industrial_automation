@@ -2,7 +2,11 @@
 This project is part of ENPM809B course offered by University of Maryland, College Park during Spring 2018.
 
 Follow the instructions provided in the link below to setup the competition environment.
+
 [ARIAC Competition Setup](https://bitbucket.org/osrf/ariac/wiki/2017/Home.md)
+
+## Report 
+[ARIAC Project Final Report](https://github.com/akathpal/agile_robotics_industrial_automation/blob/master/akathpal_Report.pdf)
 
 ## Instructions to run the code:
 
