@@ -20,6 +20,29 @@ rosrun osrf_gear gear.py -f `catkin_find --share osrf_gear`/config/comp_conf1.ya
 [Qual3a](https://www.youtube.com/watch?v=5HyFe3qSEkk)
 [Qual3b](https://www.youtube.com/watch?v=iujyKDMRZsw)
 
+## Approach Overview
+The basic goal of the ARIAC competition is to build the kits and fulfil the order. The first task
+is to break down the entire task into sub-tasks. The qualifiers provided were the perfect
+stepping stones for the same. Instead on focussing on solving the complete qualifier, first we
+tried to solve the small tasks and how to deal with them.
+
+Some of the unique elements of our approach:
+* Flipping the parts
+* Overall hybrid architecture and for conveyor pickup reactive architecture
+* Pose Correction
+* Computing the velocity of conveyor and updating part positions on conveyor
+
+The next step after breaking down the tasks was to decide what sensors to use in order to
+best achieve the results. Our main goal was to focus on the agility, being flexible to handle
+various scenarios, of the process rather than lowering the overall cost of the environment.
+Therefore, we have used five logical cameras, four on the bins and one on the conveyor. Using
+logical cameras gave us the ability of handling scenarios like multiple parts on the same bin
+as well as different configurations of the parts. We decided not to put cameras on the other
+four bins since the robot cannot reach in configuration to pick parts from those bins. The
+camera on the conveyor is not only being used to get the part type and position, but we are
+also using to estimate the velocity of the conveyor since it is not constant. This computed
+velocity is used to update the part positions on the conveyor with time.
+
 ## General tips 
 
 * Create your own branch and work independently on it.
